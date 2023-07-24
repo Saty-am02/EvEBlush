@@ -16,9 +16,9 @@ This repository contains the code for my personal website, showcasing my portfol
 
 ## Screenshot
 
-![about section](relative_path_to_your_screenshot.png)
+![Landing page](screenshots/index.png)
 
-![Alt Text](screenshots/your_screenshot.png)
+![about page](screenshots/about.png)
 
 ## Contributing
 
