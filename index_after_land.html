@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../NewPortfolio/img/logo1.svg" type="image/icon type">
-    <link rel="stylesheet" href="../NewPortfolio/css/style.css">
+    <link rel="stylesheet" href="../NewPortfolio/css/index1.css">
     <title>EvE BLUSH</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
             </div>
         </header>
         <div class="htmlbuilderf">
-            <embed class="preloder" src="./img/preloader.gif">
+            <!-- <embed class="preloder" src="./img/preloader.gif" style="display: none;"> -->
             </div>
         <div class="-black" ></div>
         <section>
@@ -388,7 +388,10 @@
                 astro.style.top =  10+value * 0.09 + 'px';
                 zen.style.left = value * 0.9 + 'px';
                 zen.style.top = -50 +value * 0.09 + 'px';
-                art.style.opacity = (value - 1500) / 1000;                
+                art.style.opacity = (value - 1500) / 1000;
+                // dino.style.left = (value * 0.4 )+ 'px';
+                // dino.style.top = 300 + value * 0.08 + 'px';
+                
                 if((value - 910.8 )>=0)
                 {
                     dino.style.left = -50 + (value - 910.8 ) * 0.07 + '%';
