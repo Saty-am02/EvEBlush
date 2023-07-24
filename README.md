@@ -1,20 +1,18 @@
 # Personal Website
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/your-personal-website/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/your-personal-website/blob/main/LICENS)
 
 ## Overview
 
-This repository contains the code for my personal website, showcasing my portfolio, blog, and more. The website is built using [insert tech stack here, e.g., HTML, CSS, JavaScript, etc.], and it is designed to be responsive, fast, and user-friendly.
+This repository contains the code for my personal website, showcasing my portfolio, blog, and more. The website is built using [HTML, CSS, JavaScript, etc.], and it is designed to be fast, and user-friendly.
 
 **Live Website:** [www.yourwebsite.com](https://www.yourwebsite.com)
 
 ## Features
 
 - Portfolio showcasing my projects and work.
-- Blog section for sharing my thoughts and experiences.
+- About section for sharing my thoughts and experiences.
 - Contact page for getting in touch with me.
-- Responsive design for optimal viewing across various devices.
-- [insert any additional feature]
 
 ## Screenshot
 
@@ -30,5 +28,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 If you have any questions or want to reach out, feel free to contact me:
 
-- Website: [www.yourwebsite.com](https://www.yourwebsite.com)
-- Email: your.email@example.com
+- Website: (https://www.yourwebsite.com)
+- Email: satyamxz02@gmail.com
