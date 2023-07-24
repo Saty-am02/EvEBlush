@@ -16,7 +16,7 @@ This repository contains the code for my personal website, showcasing my portfol
 
 ## Screenshot
 
-![Landing page](screenshots/index.png)
+[![Landing page](screenshots/index.png)]
 
 ![about page](screenshots/about.png)
 
