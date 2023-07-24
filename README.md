@@ -16,7 +16,7 @@ This repository contains the code for my personal website, showcasing my portfol
 
 ## Screenshot
 
-![Landing page](https://github.com/Saty-am02/EvEBlush/blob/6405f3ac549e5203369b067a938b084de47da842/screenshot/index.png)
+![Landing page](https://github.com/Saty-am02/EvEBlush/assets/88832726/500f224c-0527-4304-a557-666b1bc883b8)
 
 ![about page](screenshot/about.png)
 
