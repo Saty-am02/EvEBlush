@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 500px;
+            width: 700px;
+            position: relative;
+            background-color: #fdd120;
+            top: 200px;
+        }
+
+        .box::after {
+            content: '';
+            height: 100px;
+            width: 700px;
+            position: absolute;
+            background-color: #ff545a;
+            z-index: 10;
+            bottom: 0;
+        }
+
+        .triangle {
+            content: '';
+            position: absolute;
+            border: 0 solid transparent;
+            border-bottom-width: 250px;
+            border-top-width: 250px;
+            border-left: 89px solid#fdd120;
+            top: 143px;
+            rotate: 90deg;
+            z-index: 12;
+        }
+
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: #0000005c;
+            z-index: 12;
+        }
+
+        span {
+            font-size: 29px;
+    color: #0000008c;
+    font-family: system-ui;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1 style="margin-top: -150px;
+        color: white;
+        font-family: system-ui;">Pinak Idea Lab</h1>
+        <div class="circle"><span>:)</span></div>
+        <div class="triangle"></div>
+    </div>
+</body>
+
+</html>
