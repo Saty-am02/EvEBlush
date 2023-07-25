@@ -7,7 +7,7 @@
 This repository contains the code for my personal website, showcasing my portfolio, blog, and more. The website is built using [HTML, CSS, JavaScript, etc.], and it is designed to be fast, and user-friendly.
 
 **Live Website:** 
-(eveblush.netlify.app)
+https://github.comeveblush.netlify.app
 
 ## Features
 
@@ -31,5 +31,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 If you have any questions or want to reach out, feel free to contact me:
 
-- Website: eveblush.netlify.app
+- Website: https://eveblush.netlify.app
 - Email: satyamxz02@gmail.com
