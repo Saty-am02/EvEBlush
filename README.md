@@ -1,12 +1,13 @@
 # Personal Website
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/your-personal-website/blob/main/LICENS)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Saty-am02/eveblush.netlify.app/blob/main/LICENS)
 
 ## Overview
 
 This repository contains the code for my personal website, showcasing my portfolio, blog, and more. The website is built using [HTML, CSS, JavaScript, etc.], and it is designed to be fast, and user-friendly.
 
-**Live Website:** [www.yourwebsite.com](https://www.yourwebsite.com)
+**Live Website:** 
+(eveblush.netlify.app)
 
 ## Features
 
@@ -30,5 +31,5 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 If you have any questions or want to reach out, feel free to contact me:
 
-- Website: (https://www.yourwebsite.com)
+- Website: eveblush.netlify.app
 - Email: satyamxz02@gmail.com
