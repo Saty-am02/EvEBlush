@@ -59,6 +59,7 @@ body {
     padding: 0 1rem 5rem;
     animation: navigation 0.7s forwards linear 4s;
     z-index: 50;
+    
 }
 
 #header .image {
@@ -147,10 +148,12 @@ body {
 @keyframes navigation {
     0% {
         top: -100px;
+    
     }
 
     100% {
         top: 30px;
+
     }
 
 }
@@ -399,9 +402,22 @@ section .spine .circle::after {
     top: 46vh;
     position: absolute;
     left: 25vw;
-    animation: line 1s forwards linear 4s;
+    animation: main 1s forwards linear 4s;
+    opacity:0;
 }
 
+@keyframes main {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 50vh;
+        opacity: 1;
+    }
+
+}
 .std:nth-child(3) {
     max-width: 42rem;
     /* line-height: 1.rem; */
