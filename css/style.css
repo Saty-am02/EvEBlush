@@ -413,7 +413,7 @@ section .spine .circle::after {
     }
 
     100% {
-        top: 50vh;
+        top: 30vh;
         opacity: 1;
     }
 
