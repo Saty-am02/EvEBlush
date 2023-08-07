@@ -505,7 +505,7 @@ section .spine .circle::after {
     /* hyphens: auto; */
     margin-right: -8vw;
     padding-left: 4px;
-    top: 438vh;
+    top: 455vh;
     position: absolute;
     left: 40vw;
 }
@@ -521,7 +521,7 @@ section .spine .circle::after {
     /* hyphens: auto; */
     margin-right: -8vw;
     padding-left: 4px;
-    top: 443vh;
+    top: 459vh;
     position: absolute;
     left: 40vw;
 }
