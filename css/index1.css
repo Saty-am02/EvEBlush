@@ -639,6 +639,7 @@ section .spine .circle::after {
     position: relative;
     transform: translate(-99vw, 186vh);
     z-index: 100;
+    display: none;
 }
 
 .zen-arms {
@@ -711,6 +712,7 @@ section .spine .circle::after {
     animation: astro 4s alternate ease-in-out infinite;
     z-index: 100;
     margin-left: 25vh;
+    display: none;
 }
 
 @keyframes astro {
@@ -797,6 +799,7 @@ section .spine .circle::after {
     position: absolute;
     transform: translate(2vw, 310vh);
     z-index: 100;
+    display: none;
 }
 
 #dino .dino-headphone {
@@ -1495,6 +1498,7 @@ html {
       z-index: 100;
       display: none;
       overflow-x: hidden;
+      display: none;
 
   }
   
