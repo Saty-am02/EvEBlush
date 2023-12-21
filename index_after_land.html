@@ -34,7 +34,7 @@
         <div class="htmlbuilderf">
             <!-- <embed class="preloder" src="./img/preloader.gif" style="display: none;"> -->
             </div>
-        <div class="-black" ></div>
+            <div class="-black" ></div>
         <section>
             <div class="spine">
                 <div class="circle"></div>
@@ -179,20 +179,21 @@
             </svg>
         </div>
         <div class="std" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-            <p class="hb4" style="font-size: 2rem;">From 2019 till now <br>i am passinate about learning <br><span class="-purple" style="font-size: 2rem;">new technologies</span></p>
+            <p class="-white" >From 2019 till now <br>i am passinate about learning <br></p>
+            <br><span class="-purple" >new technologies</span>
             <!-- <span class="is"></span>
             <p class="-purple">HB's FUTURE</p> -->
         </div>
         <div class="std" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
                 <p class="-white" >Throughout these years i learned hundreds of
                 </p>
-                <p class="-purple" style="font-size: 3rem;">tecnologies & custom projects</p>
+                <p class="-purple" >tecnologies & custom projects</p>
                 <p class="-gray">for my skill devlopment.
                 </p>
         </div>
         <div class="std" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
-            <span class="white">Design & illustration.</span>
-               <p class="hb4" style="top:-1px"> A frontend developer</p>
+            <span class="-white">Design & illustration.</span>
+               <p class="-white" style="top:-1px"> A frontend developer</p>
                <p class="-purple" style="top:-1px">with one foothold in arts.</p>
             <!--<p class="-purple">HB's FUTURE</p>-->
         </div>
@@ -374,26 +375,33 @@
             </g>
         </g>
     </svg>
-        <div class="-black2"></div>
+    <section>
+
         <audio id="audi">
             <source src="./music/baby.mp3" type="audio/wav">
         </audio>
         <script type="text/javascript">
-            let astro = document.getElementById('astro');
-            let zen = document.getElementById('zen');
-            let dino = document.getElementById('dino');
-            let art = document.getElementById('pic');
-            window.addEventListener('scroll',function(){
-                let value = window.scrollY;
-                astro.style.left = value * 0.09 + '%';
-                astro.style.top =  10+value * 0.09 + 'px';
-                zen.style.left = value * 0.9 + 'px';
-                zen.style.top = -50 +value * 0.09 + 'px';
-                art.style.opacity = (value - 1500) / 1000;
-                // dino.style.left = (value * 0.4 )+ 'px';
-                // dino.style.top = 300 + value * 0.08 + 'px';
-                
-                if((value - 910.8 )>=0)
+            
+         
+     const astro = document.getElementById('astro');
+    const zen = document.getElementById('zen');
+    const dino = document.getElementById('dino');
+    const art = document.getElementById('pic');
+    
+    window.addEventListener('scroll', function () {
+        let value = window.scrollY;
+        
+        // Adjustments for astro and zen
+        astro.style.left = value * 0.09 + '%';
+        astro.style.top = 10 + value * 0.09 + 'px';
+        zen.style.left = value * 0.9 + 'px';
+        zen.style.top = -50 + value * 0.09 + 'px';
+
+        // Adjustment for art opacity
+        art.style.opacity = Math.max(0, (value - 1500) / 1000);
+
+        
+       if((value - 910.8 )>=0)
                 {
                     dino.style.left = -50 + (value - 910.8 ) * 0.07 + 'vw';
                 }
@@ -401,8 +409,9 @@
                {
                 dino.style.top = 50+ (value - 482.16) * 0.09 + 'px';
                }
-                
-            })
+    });
+</script>
+
         </script>
     </body>
     </html>
